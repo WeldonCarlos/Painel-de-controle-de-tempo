@@ -1,0 +1,89 @@
+.background__cartao{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 1em 2em 0 2em;
+    border-radius: 16px;
+    width: 80%;
+    height:120px;
+    background-color: var(--Corfundo--CardTrabalho);
+    
+}
+
+.frente__cartao{
+
+    display: flex;
+    flex-direction: column;
+    background-color: var(--corCartao--Secundario);
+    height:92px;
+    width: 80%;
+    border-radius: 16px;
+    position: absolute; 
+  
+    
+    
+}
+
+.icone__work{
+    display:flex;
+    align-items: flex-start;
+
+}
+
+.img__work{
+    display: flex;
+    align-items: flex-start;
+    margin: 0 0 91.3% 140%;
+    width: 60%;
+    height: 50%;
+   
+
+}
+
+
+.work__time{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 1em 0 1em;
+
+
+}
+
+.titulo__work{
+
+    color: white;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+
+
+    
+    
+}
+
+.titulo__horas{
+    color: white;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.icon__Semanas{
+    display: flex;
+    flex-direction: row;
+    margin: 0 1em ;
+    justify-content: space-between;
+    align-items: center;
+    
+ 
+}
+
+.semana__anterior{
+    font-size: 10px;
+    color: white;
+    padding-right: 2px;
+}
