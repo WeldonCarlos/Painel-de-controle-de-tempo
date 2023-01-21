@@ -12,6 +12,8 @@
   --Corfundo--CardExercicio: #4BCF83;
   --Corfundo--CardSocial: #7235D1;
   --Corfundo--Saude: #F1C75B; 
+  --CorFundo--geral: #0D1323;
+
 }
 
 
@@ -22,6 +24,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: var(--CorFundo--geral);
 }
 
 code {
