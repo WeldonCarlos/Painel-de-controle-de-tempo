@@ -8,7 +8,7 @@ const PrimeiroCard = () => {
 
         <section >
 
-            <div className='conteiner__pai'>
+            <div className='conteiner__master'>
 
                 <div className='fundo__card'>
 
