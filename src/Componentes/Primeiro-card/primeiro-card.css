@@ -42,7 +42,7 @@
 
 .topo__card__info {
 
-    display:flex;
+    display: flex;
     flex-direction: column;
 
 
@@ -91,8 +91,8 @@
     justify-content: center;
     height: 42px;
     width: 42px;
-    
-   
+
+
 }
 
 .texto__rodape {
@@ -105,7 +105,7 @@
 
 }
 
-.textos__rodape{
+.textos__rodape {
     color: white;
     font-family: 'Montserrat' sans-serif;
     font-weight: lighter;
@@ -121,19 +121,19 @@
         align-items: flex-start;
 
     }
-   
+
     .fundo__card {
 
         background-color: var(--corCartao--Secundario);
         border-radius: 14px;
         display: flex;
-        height:330px;
-        width:10em;
-        
-    
+        height: 330px;
+        width: 10em;
 
 
-    
+
+
+
     }
 
     .frente__card {
@@ -141,8 +141,8 @@
         border-radius: 14px;
         width: 100%;
         height: 13.5em;
-    
-    
+
+
     }
 
     .circulo__branco {
@@ -154,34 +154,34 @@
         height: 42px;
         width: 42px;
         margin: 4.5em 0 0 0;
-        
-       
+
+
     }
 
     .topo__card__info {
 
-        display:flex;
+        display: flex;
         position: absolute;
         flex-direction: column;
         margin: 13.5em 0 0 0;
-    
-    
-    
+
+
+
     }
-    
+
     .texto__rodape {
 
-       
+
         display: flex;
         flex-direction: column;
-        gap:13px;
+        gap: 13px;
         position: absolute;
-        margin-top:32.5em;
-       
-        
+        margin-top: 32.5em;
+
+
     }
 
-    .textos__rodape{
+    .textos__rodape {
         font-size: 12px;
         margin: 0 0 0 -2em;
 
@@ -195,10 +195,10 @@
             background-color: var(--corCartao--Secundario);
             border-radius: 14px;
             display: flex;
-            height:458px;
-            width:13em;
-            
-        
+            height: 458px;
+            width: 13em;
+
+
         }
 
         .frente__card {
@@ -206,8 +206,8 @@
             border-radius: 14px;
             width: 100%;
             height: 20em;
-        
-        
+
+
         }
 
         .img__log {
@@ -215,7 +215,7 @@
             height: 52px;
             width: 52px;
         }
-        
+
         .circulo__branco {
             align-items: center;
             background: white;
@@ -225,19 +225,19 @@
             height: 56px;
             width: 56px;
             margin: 4.5em 0 0 0;
-            
-           
+
+
         }
 
         .topo__card__info {
 
-            display:flex;
+            display: flex;
             flex-direction: column;
             margin: 17em 0 0 0;
 
-        
-        
-        
+
+
+
         }
 
 
@@ -249,7 +249,7 @@
             font-size: 27px;
             font-weight: 300;
             margin: 0;
-        
+
         }
 
         .topo__card__info p {
@@ -258,7 +258,7 @@
             font-family: 'Montserrat', sans-serif;
             font-size: 15px;
             margin: 0;
-        
+
         }
 
 
@@ -270,21 +270,21 @@
             margin-top: 45.4rem;
             margin-left: 0.1em;
             gap: 10px;
-         
-            
-           
-            
+
+
+
+
         }
 
-        .textos__rodape{
+        .textos__rodape {
             font-size: 16px;
             margin: 0;
             font-weight: 100;
-          
-            
-            
-            
-        
+
+
+
+
+
         }
 
 
@@ -298,20 +298,21 @@
             background-color: var(--corCartao--Secundario);
             border-radius: 14px;
             display: flex;
-            height:600px;
-            width:16em;
-            
-        
+            height: 600px;
+            width: 16em;
+
+
         }
-        
+
         .frente__card {
             background-color: var(--corCartao--Principal);
             border-radius: 14px;
             width: 100%;
             height: 25em;
-        
-        
+
+
         }
+
 
 
 
@@ -323,7 +324,7 @@
             height: 70px;
             width: 70px;
         }
-        
+
         .circulo__branco {
             align-items: center;
             background: white;
@@ -333,19 +334,19 @@
             height: 76px;
             width: 76px;
             margin: 5.3em 0 0 0;
-            
-           
+
+
         }
 
         .topo__card__info {
 
-            display:flex;
+            display: flex;
             flex-direction: column;
             margin: 24em 0 0 0.3em;
 
-        
-        
-        
+
+
+
         }
 
 
@@ -357,7 +358,7 @@
             font-size: 40px;
             font-weight: 300;
             margin: 0;
-        
+
         }
 
         .topo__card__info p {
@@ -366,7 +367,7 @@
             font-family: 'Montserrat', sans-serif;
             font-size: 16px;
             margin: 0;
-        
+
         }
 
 
@@ -378,23 +379,211 @@
             margin-top: 57rem;
             margin-left: 0.3em;
             gap: 18px;
-         
-            
-           
-            
+
+
+
+
         }
 
-        .textos__rodape{
+        .textos__rodape {
             font-size: 22px;
             margin: 0;
             font-weight: 100;
-          
-            
-            
-            
-        
+
+
+
+
+
         }
 
     }
 
+}
+
+@media screen and (min-width: 1680px) {
+
+    .fundo__card {
+
+        background-color: var(--corCartao--Secundario);
+        border-radius: 14px;
+        display: flex;
+        height: 730px;
+        width: 20em;
+
+
+    }
+
+    .frente__card {
+        background-color: var(--corCartao--Principal);
+        border-radius: 14px;
+        width: 100%;
+        height: 30em;
+
+
+    }
+
+    .circulo__branco {
+        align-items: center;
+        background: white;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        height: 90px;
+        width: 90px;
+        margin: 5.6em 0 0 0.5em;
+
+
+    }
+
+
+    .img__log {
+
+        height: 84px;
+        width: 84px;
+    }
+
+    .topo__card__info {
+
+        display: flex;
+        flex-direction: column;
+        margin: 26em 0 0 0.7em;
+
+
+
+
+    }
+
+
+    .topo__card__info h2 {
+
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 52px;
+        font-weight: 300;
+        margin: 0;
+
+    }
+
+    .topo__card__info p {
+        color: white;
+        font-weight: lighter;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 19px;
+        margin: 0;
+
+    }
+
+
+    .texto__rodape {
+
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin-top: 69rem;
+        margin-left: 0.7em;
+        gap: 25px;
+
+    }
+
+    .textos__rodape {
+        font-size: 28px;
+        margin: 0;
+        font-weight: lighter;
+
+    }
+
+
+}
+
+@media screen and (min-width: 2560px) {
+
+    .fundo__card {
+
+        background-color: var(--corCartao--Secundario);
+        border-radius: 14px;
+        display: flex;
+        height:1100px;
+        width: 30em;
+
+
+    }
+
+    .frente__card {
+        background-color: var(--corCartao--Principal);
+        border-radius: 14px;
+        width: 100%;
+        height: 45em;
+
+
+    }
+
+    .circulo__branco {
+        align-items: center;
+        background: white;
+        border-radius:100px;
+        display: flex;
+        justify-content: center;
+        height: 150px;
+        width: 150px;
+        margin: 7em 0 0 0.5em;
+
+
+    }
+
+
+    .img__log {
+
+        height: 143px;
+        width: 143px;
+    }
+
+    .topo__card__info {
+
+        display: flex;
+        flex-direction: column;
+        margin: 38em 0 0 0.8em;
+
+
+
+
+    }
+
+
+    .topo__card__info h2 {
+
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 80px;
+        font-weight: 300;
+        margin: 0;
+
+    }
+
+    .topo__card__info p {
+        color: white;
+        font-weight: lighter;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 35px;
+        margin: 0;
+
+    }
+
+
+    .texto__rodape {
+
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin-top: 100rem;
+        margin-left: 0.8em;
+        gap: 45px;
+
+    }
+
+    .textos__rodape {
+        font-size: 40px;
+        margin: 0;
+        font-weight: lighter;
+
+    }
 }

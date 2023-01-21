@@ -353,6 +353,180 @@
 
 }
 
+@media screen and (min-width: 1680px) {
+
+    .div__pai{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 3em 0.3em 3em 0.3em;
+       
+        
+    }
+
+    
+    .background__cartao{
+        display: flex;
+        border-radius: 20px;
+        width:25em;
+        height:349px;
+        margin: .8em;
+      
+    }
+
+    .frente__cartao{
+
+        display: flex;
+        flex-direction: column;
+        background-color: var(--corCartao--Secundario);
+        height:275px;
+        width: 24.1%;
+        border-radius:20px;
+        position: absolute;
+     
+        
+        
+        
+       
+    }
+
+    
+    .titulo__work{
+
+        color: white;
+        font-size: 26px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+      
+    }
+
+
+    .icon__Semanas{
+        display: flex;
+        flex-direction: column;
+        margin: 1.7em 1em ;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+
+    .titulo__horas{
+
+        font-size: 80px;
+        font-weight: 300;
+       
+    }
+
+    .semana__anterior{
+        font-size: 28px;
+    }
+    
+    .icone__work{
+        display:flex;
+        justify-content: center;
+        margin-left:10em;
+        margin-bottom: 12.3em;
+        
+        
+       
+       
+    
+    }
+
+    .img__work{
+        display: flex;
+        align-items: flex-start;
+        margin: 0 0 93.6% 140%;
+        width: 100%;
+        height: 80%;
+        opacity: .9;
+       
+    
+    }
+   
+    
+}
+
+@media screen and (min-width: 2560px) {
+
+    .background__cartao{
+        display: flex;
+        border-radius: 20px;
+        width:35em;
+        height:349px;
+        margin: .8em;
+      
+    }
+
+    .background__cartao{
+        display: flex;
+        border-radius: 20px;
+        width:40em;
+        height:533px;
+        margin: .9em;
+      
+    }
+
+    .frente__cartao{
+
+        display: flex;
+        flex-direction: column;
+        background-color: var(--corCartao--Secundario);
+        height:400px;
+        width: 25.2%;
+        border-radius:20px;
+        position: absolute;
+     
+        
+        
+        
+       
+    }
+
+    .titulo__work{
+
+        color: white;
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+      
+    }
+
+    .titulo__horas{
+
+        font-size: 110px;
+        font-weight: 300;
+       
+    }
+
+    .semana__anterior{
+        font-size: 32px;
+    }
+
+    
+    .icon__Semanas{
+        display: flex;
+        flex-direction: column;
+        margin:3.5em 1em ;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .img__work{
+        display: none;
+    
+    }
+
+    .icone__work{
+        display: none;
+        
+       
+       
+    
+    }
+}
+
+
 
 
 
